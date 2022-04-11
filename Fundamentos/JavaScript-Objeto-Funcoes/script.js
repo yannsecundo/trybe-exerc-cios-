@@ -9,3 +9,14 @@ let player = {
 
 console.log("A jogadora " + player.name + player.lastName + " foi eleita a melhor do mundo 6 vezes " + player.bestInTheWorld);
 console.log("A jogadora possui " + player.medals);
+
+// escreve "olá" para cada um sem repetir nome
+let names = {
+    person1: 'João',
+    person2: 'Maria',
+    person3: 'Jorge',
+  };
+
+  for (let key in names){
+      console.log("Olá " + names[key]);
+  }
